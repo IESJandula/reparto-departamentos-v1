@@ -45,6 +45,15 @@ public class Profesores {
         this.horas_lectivas = horas_lectivas;
     }
 
+    @Override
+    public String toString() {
+        return "Profesores{" +
+                "nombre='" + nombre + '\'' +
+                ", email='" + email + '\'' +
+                ", horas_lectivas=" + horas_lectivas +
+                '}';
+    }
+
     /*defino las relaciones
     * Profesores asignaturas M:N
     * Asignaturas Departamentos 1:N
